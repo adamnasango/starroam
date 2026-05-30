@@ -6820,6 +6820,16 @@ header.main-header .header-sticky.active{
 }
 
 .testimonial-item-elite{
+    background: var(--dark-divider-color);
+    border-radius: 20px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* .testimonial-item-elite{
 	background: var(--dark-divider-color);
 	backdrop-filter: blur(25px);
 	-webkit-backdrop-filter: blur(25px);
@@ -6830,7 +6840,7 @@ header.main-header .header-sticky.active{
 	justify-content: space-between;
 	gap: 30px;
 	padding: 40px;
-}
+} */
 
 .testimonial-company-logo-elite img{
 	width: 100%;
